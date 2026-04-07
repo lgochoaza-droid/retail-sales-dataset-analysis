@@ -44,7 +44,10 @@ In the same way, we don't see differences between the quantity of purchased prod
 
 
 ## Conclusions
-The age, gender and the number of purchased items per transaction doesn't have influence in the bahaviour of the sale. In all cases, we can see the preference to choose low-cost products in the most of purchases.
+The age, gender and the number of purchased items per transaction doesn't have influence in the bahaviour of the sale. In all cases, we can see the preference to choose low-cost products in the most of purchases. This fact suggests that the low-cost products have a relevant role in sales dynamic, specially by volume and rotation.
+
+## Recomendations
+- Strengthen commercial strategies focused on low-cost products, considering their impact on sales volume
 
 ## Code.
 The algorithm used for the analysis can be founded in this repository. Its file name is retail_data_sales_analysis.py
