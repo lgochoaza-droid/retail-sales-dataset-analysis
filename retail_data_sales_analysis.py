@@ -60,9 +60,10 @@ class data_analizator:
         fig = px.box(table, x=column_x, y=column_y, points='all')
         fig.show()
 
-    def apply_ANOVA_test(self, column_name, value_name):
+    def apply_hipotesis_test(self, column_name, value_name):
         groups_column = [
             self.data_frame[self.data_frame[column_name] == group][value_name] for group in self.data_frame[column_name].unique()
         ]
-        r=stats.f_oneway(*groups_column)
+        r=stats.kruskal(*groups_column)
+        return r
     
