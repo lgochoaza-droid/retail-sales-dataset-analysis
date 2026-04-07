@@ -1,4 +1,4 @@
-# retail-sales-dataset-analysis
+# Data Analysis of Retail Consumption
 
 ## Objective
 Analyze a retail sales dataset to identify patterns of sales based on gender, age and number of items by transaction
@@ -18,7 +18,30 @@ Synthetic dataset that simulates a dynamic retail environment in one year. The d
 ## Results.
 For the category of age and gender, the groups show us the same behaviour of sales (see Fig 1, 2). The Kruskal-Wallis test confirms that (H-value = 5.019 and p-value = 0.170 for age groups and H-value = 0.083 and p-value = 0.77) the variations between age groups and the variations between gender groups are not significant respect the data variability. Furthermore, we can see a important bias towards low purchase values.
 
+<p align="center">
+<img src="Fig1.png" width="45%">
+<img src="Fig2.png" width="45%">
+</p>
+
+<p align="center">
+  <em>
+    Fig1: Total Amount vs Age; &nbsp;&nbsp; Fig2: Total Amount vs Gender
+  </em>
+</p>
+
 In the same way, we don't see differences between the quantity of purchased products in the election of items to buy per transaction (see Fig 3). If the customer buys one product or two, he will prefer items of low cost. The bahaviour is the same for the three Category Products (Electronic, Clothing and Beauty).
+
+<p align="center">
+  <img src="Fig3.png" width="65%">
+</p>
+
+<p align="center">
+  <em>
+    Fig3. Price per Unit vs Items per transaction
+  </em>
+</p>
+
+
 
 ## Conclusions
 The age, gender and the number of purchased items per transaction doesn't have influence in the bahaviour of the sale. In all cases, we can see the preference to choose low-cost products in the most of purchases.
